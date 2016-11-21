@@ -776,7 +776,9 @@ We now can use the Location header, in this case with the value `/waste/cans/42`
 created. Try it:
 
 ```
-user@ubuntu:~$ curl -vv localhost:8080/waste/cans/42*   Trying ::1...
+user@ubuntu:~$ curl -vv localhost:8080/waste/cans/42
+
+*   Trying ::1...
 * connect to ::1 port 8080 failed: Connection refused
 *   Trying 127.0.0.1...
 * Connected to localhost (127.0.0.1) port 8080 (#0)
